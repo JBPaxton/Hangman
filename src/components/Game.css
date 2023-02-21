@@ -1,0 +1,54 @@
+.resetContainer {
+    /* Sets the display type of all elements of class "resetContainer" to 'grid' */
+    display: grid;
+}
+
+.helpContainer {
+    /* Sets the display type of all elements of class "resetContainer" to 'grid' */
+    display: grid;
+    /* Adds 100px of padding to the top of all elementf of class "helpContainer" */
+    padding-top: 100px;
+}
+
+.helpButton {
+    /* Sets the width of all elements of class "helpButton" to 100px*/
+    width: 100px;
+    /* Sets the height of all elements of class "helpButton" to 25px*/
+    height: 25px;
+    /* Creates a solid 1 pixel thick border with a 5px wide radius around all elements of class "helpButton" */
+    border: solid 1px;
+    border-radius: 5px;
+    /* Justifies all elements of class "helpButton" to the center */
+    justify-self: center;
+    /* Sets the curser to 'pointer' when hovering over elements of class "helpButton" */
+    cursor:pointer;
+}
+
+.helpButton:hover {
+    /* Sets the background color of all elements of class "helpButton" to a light grey 'rgb(242, 242, 248)' while being hovered over */
+    background-color: rgb(242, 242, 248);
+    /* Sets the color of all text in elements of class "helpButton" that are being hovered over to 'midnight blue' */
+    color:midnightblue
+}
+
+.resetButton {
+    /* Sets the width of all elements of class "resetButton" to 100px*/
+    width: 100px;
+    /* Sets the height of all elements of class "resetButton" to 25px*/
+    height: 25px;
+    /* Creates a solid 1 pixel thick border with a 5px wide radius around all elements of class "resetButton" */
+    border: solid 1px;
+    border-radius: 5px;
+    /* Justifies all elements of class "resetButton" to the center */
+    justify-self: center;
+    /* Sets the curser to 'pointer' when hovering over elements of class "resetButton" */
+    cursor:pointer;
+
+}
+
+.resetButton:hover {
+    /* Sets the background color of all elements of class "resetButton" that are being hovered over to a light grey 'rgb(242, 242, 248)' */
+    background-color: rgb(242, 242, 248);
+    /* Sets the color of all text in elements of class "resetButton" that are being hovered over to 'midnight blue' */
+    color:midnightblue
+}

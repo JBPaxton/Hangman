@@ -1,0 +1,8 @@
+.Display {
+    /* Sets the display type of all elements of class "Display" to 'flex */
+    display: flex;
+    /* Aligns the flex elements within all elements of class "Display" vertically and to the center */
+    flex-direction: column;
+    /* Justifies all content within element of class "Display" to the center */
+    justify-content: center;
+}
